@@ -26,7 +26,7 @@ To initialize the repositories:
   
 Or, if you want choise a manifestt file:
 
-  $ repo init -u git://github.com/flownder/ltga-manifest.git -m ltga-1.0.0.xml
+	$ repo init -u git://github.com/flownder/ltga-manifest.git -m ltga-1.0.0.xml
 
 This will pull down the "master" branch by default. If you want to work on a
 branch other than "master" simply specify it with the "-b <branch>" option to
