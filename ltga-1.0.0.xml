@@ -4,7 +4,7 @@
 
   <remote fetch="git://git.openembedded.org/" name="oe"/>
   <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
-  <remote fetch="git://git.github.com/flownder/" name="ltga"/>
+  <remote fetch="https://github.com/flownder/" name="ltga"/>
 
   <project remote="oe" revision="dunfell" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="oe" revision="1.46" name="bitbake" path="sources/bitbake"/>
