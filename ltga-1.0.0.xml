@@ -11,6 +11,6 @@
   <project remote="oe" revision="dunfell" name="openembedded-core" path="sources/oe-core"/>
   <project remote="yocto" revision="dunfell" name="meta-ti" path="sources/meta-ti"/>
   <project remote="yocto" revision="dunfell" name="meta-arm" path="sources/meta-arm"/>
-  <project remote="ltga" revision="main" name="meta-ltga" path="sources/meta-ltga"/>
+  <project remote="ltga" revision="master" name="meta-ltga" path="sources/meta-ltga"/>
 
 </manifest>
