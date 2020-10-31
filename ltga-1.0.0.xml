@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="4" revision="default"/>
+
+  <remote fetch="git://git.openembedded.org/" name="oe"/>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
+  <remote fetch="https://github.com/flownder" name="ltga"/>
+
+  <project remote="oe" revision="refs/heads/dunfell" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="refs/heads/1.46" name="bitbake" path="sources/bitbake"/>
+  <project remote="oe" revision="refs/heads/dunfell" name="openembedded-core" path="sources/oe-core"/>
+  <project remote="yocto" revision="refs/heads/dunfell" name="meta-ti" path="sources/meta-ti"/>
+  <project remote="yocto" revision="refs/heads/dunfell" name="meta-arm" path="sources/meta-arm"/>
+  <project remote="ltga" revision="refs/heads/master" name="LTGA_Project" path="sources/meta-ltga"/>
+
+</manifest>
