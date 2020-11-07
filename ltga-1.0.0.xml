@@ -13,7 +13,7 @@
   <project remote="yocto" revision="dunfell"  name="meta-arm"           path="sources/meta-arm"/>
   <project remote="ltga"  revision="master"   name="meta-ltga"          path="sources/meta-ltga"/>
   
-  <project remote="ltga"  revision="master"   name="ltga-manifest"      path=".repo/manifests">
+  <project remote="ltga"  revision="main"     name="ltga-manifest"      path=".repo/manifests">
     <linkfile dest="setup" src="setup" />
   </project>
 
